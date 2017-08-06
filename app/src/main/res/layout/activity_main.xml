@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hari.realestate.MainActivity"
+    android:background="#BDBDBD">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="Login"
+        android:textSize="24dp"
+        android:textColor="#c3ffffff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPassword"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="320dp"
+        android:id="@+id/submit"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:background="#212121"
+        android:textColor="#fffeff"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+</RelativeLayout>
